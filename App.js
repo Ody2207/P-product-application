@@ -59,6 +59,7 @@ document.getElementById("product-form")
         console.log(name, price, year);
 
         const product = new Product(name, price, year);
+        console.log(product)
 
         const ui = new UI();
         if(name === '' || price === '' || year === '') {
